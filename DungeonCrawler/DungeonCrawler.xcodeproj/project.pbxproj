@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1C4B59204DD2EC00684F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C4B58204DD2EC00684F10 /* AppDelegate.swift */; };
+		3F1C4B5B204DD2EC00684F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C4B5A204DD2EC00684F10 /* ViewController.swift */; };
+		3F1C4B5E204DD2EC00684F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C4B5C204DD2EC00684F10 /* Main.storyboard */; };
+		3F1C4B60204DD2EC00684F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C4B5F204DD2EC00684F10 /* Assets.xcassets */; };
+		3F1C4B63204DD2EC00684F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C4B61204DD2EC00684F10 /* LaunchScreen.storyboard */; };
+		3F1C4B6E204DD2EC00684F10 /* DungeonCrawlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C4B6D204DD2EC00684F10 /* DungeonCrawlerTests.swift */; };
+		3F1C4B79204DD2EC00684F10 /* DungeonCrawlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C4B78204DD2EC00684F10 /* DungeonCrawlerUITests.swift */; };
+		3F1C4B87204DD6C000684F10 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C4B86204DD6C000684F10 /* Controllers */; };
+		3F1C4B89204DD73600684F10 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C4B88204DD73600684F10 /* CreditViewController.swift */; };
+		3F1C4B8B204DD92A00684F10 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C4B8A204DD92A00684F10 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1C4B6A204DD2EC00684F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1C4B4D204DD2EC00684F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1C4B54204DD2EC00684F10;
+			remoteInfo = DungeonCrawler;
+		};
+		3F1C4B75204DD2EC00684F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1C4B4D204DD2EC00684F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1C4B54204DD2EC00684F10;
+			remoteInfo = DungeonCrawler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1C4B55204DD2EC00684F10 /* DungeonCrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonCrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C4B58204DD2EC00684F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1C4B5A204DD2EC00684F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F1C4B5D204DD2EC00684F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1C4B5F204DD2EC00684F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1C4B62204DD2EC00684F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1C4B64204DD2EC00684F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1C4B69204DD2EC00684F10 /* DungeonCrawlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonCrawlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C4B6D204DD2EC00684F10 /* DungeonCrawlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonCrawlerTests.swift; sourceTree = "<group>"; };
+		3F1C4B6F204DD2EC00684F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1C4B74204DD2EC00684F10 /* DungeonCrawlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DungeonCrawlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1C4B78204DD2EC00684F10 /* DungeonCrawlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonCrawlerUITests.swift; sourceTree = "<group>"; };
+		3F1C4B7A204DD2EC00684F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1C4B86204DD6C000684F10 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		3F1C4B88204DD73600684F10 /* CreditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditViewController.swift; path = Controllers/CreditViewController.swift; sourceTree = SOURCE_ROOT; };
+		3F1C4B8A204DD92A00684F10 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Controllers/MainViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1C4B52204DD2EC00684F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C4B66204DD2EC00684F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C4B71204DD2EC00684F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1C4B4C204DD2EC00684F10 = {
+			isa = PBXGroup;
+			children = (
+				3F1C4B86204DD6C000684F10 /* Controllers */,
+				3F1C4B57204DD2EC00684F10 /* DungeonCrawler */,
+				3F1C4B6C204DD2EC00684F10 /* DungeonCrawlerTests */,
+				3F1C4B77204DD2EC00684F10 /* DungeonCrawlerUITests */,
+				3F1C4B56204DD2EC00684F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1C4B56204DD2EC00684F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C4B55204DD2EC00684F10 /* DungeonCrawler.app */,
+				3F1C4B69204DD2EC00684F10 /* DungeonCrawlerTests.xctest */,
+				3F1C4B74204DD2EC00684F10 /* DungeonCrawlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1C4B57204DD2EC00684F10 /* DungeonCrawler */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C4B58204DD2EC00684F10 /* AppDelegate.swift */,
+				3F1C4B5A204DD2EC00684F10 /* ViewController.swift */,
+				3F1C4B5C204DD2EC00684F10 /* Main.storyboard */,
+				3F1C4B5F204DD2EC00684F10 /* Assets.xcassets */,
+				3F1C4B61204DD2EC00684F10 /* LaunchScreen.storyboard */,
+				3F1C4B64204DD2EC00684F10 /* Info.plist */,
+				3F1C4B88204DD73600684F10 /* CreditViewController.swift */,
+				3F1C4B8A204DD92A00684F10 /* MainViewController.swift */,
+			);
+			path = DungeonCrawler;
+			sourceTree = "<group>";
+		};
+		3F1C4B6C204DD2EC00684F10 /* DungeonCrawlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C4B6D204DD2EC00684F10 /* DungeonCrawlerTests.swift */,
+				3F1C4B6F204DD2EC00684F10 /* Info.plist */,
+			);
+			path = DungeonCrawlerTests;
+			sourceTree = "<group>";
+		};
+		3F1C4B77204DD2EC00684F10 /* DungeonCrawlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1C4B78204DD2EC00684F10 /* DungeonCrawlerUITests.swift */,
+				3F1C4B7A204DD2EC00684F10 /* Info.plist */,
+			);
+			path = DungeonCrawlerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1C4B54204DD2EC00684F10 /* DungeonCrawler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C4B7D204DD2EC00684F10 /* Build configuration list for PBXNativeTarget "DungeonCrawler" */;
+			buildPhases = (
+				3F1C4B51204DD2EC00684F10 /* Sources */,
+				3F1C4B52204DD2EC00684F10 /* Frameworks */,
+				3F1C4B53204DD2EC00684F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DungeonCrawler;
+			productName = DungeonCrawler;
+			productReference = 3F1C4B55204DD2EC00684F10 /* DungeonCrawler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1C4B68204DD2EC00684F10 /* DungeonCrawlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C4B80204DD2EC00684F10 /* Build configuration list for PBXNativeTarget "DungeonCrawlerTests" */;
+			buildPhases = (
+				3F1C4B65204DD2EC00684F10 /* Sources */,
+				3F1C4B66204DD2EC00684F10 /* Frameworks */,
+				3F1C4B67204DD2EC00684F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1C4B6B204DD2EC00684F10 /* PBXTargetDependency */,
+			);
+			name = DungeonCrawlerTests;
+			productName = DungeonCrawlerTests;
+			productReference = 3F1C4B69204DD2EC00684F10 /* DungeonCrawlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1C4B73204DD2EC00684F10 /* DungeonCrawlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1C4B83204DD2EC00684F10 /* Build configuration list for PBXNativeTarget "DungeonCrawlerUITests" */;
+			buildPhases = (
+				3F1C4B70204DD2EC00684F10 /* Sources */,
+				3F1C4B71204DD2EC00684F10 /* Frameworks */,
+				3F1C4B72204DD2EC00684F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1C4B76204DD2EC00684F10 /* PBXTargetDependency */,
+			);
+			name = DungeonCrawlerUITests;
+			productName = DungeonCrawlerUITests;
+			productReference = 3F1C4B74204DD2EC00684F10 /* DungeonCrawlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1C4B4D204DD2EC00684F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F1C4B54204DD2EC00684F10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F1C4B68204DD2EC00684F10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1C4B54204DD2EC00684F10;
+					};
+					3F1C4B73204DD2EC00684F10 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F1C4B54204DD2EC00684F10;
+					};
+				};
+			};
+			buildConfigurationList = 3F1C4B50204DD2EC00684F10 /* Build configuration list for PBXProject "DungeonCrawler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1C4B4C204DD2EC00684F10;
+			productRefGroup = 3F1C4B56204DD2EC00684F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1C4B54204DD2EC00684F10 /* DungeonCrawler */,
+				3F1C4B68204DD2EC00684F10 /* DungeonCrawlerTests */,
+				3F1C4B73204DD2EC00684F10 /* DungeonCrawlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1C4B53204DD2EC00684F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C4B63204DD2EC00684F10 /* LaunchScreen.storyboard in Resources */,
+				3F1C4B60204DD2EC00684F10 /* Assets.xcassets in Resources */,
+				3F1C4B87204DD6C000684F10 /* Controllers in Resources */,
+				3F1C4B5E204DD2EC00684F10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C4B67204DD2EC00684F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C4B72204DD2EC00684F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1C4B51204DD2EC00684F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C4B5B204DD2EC00684F10 /* ViewController.swift in Sources */,
+				3F1C4B59204DD2EC00684F10 /* AppDelegate.swift in Sources */,
+				3F1C4B89204DD73600684F10 /* CreditViewController.swift in Sources */,
+				3F1C4B8B204DD92A00684F10 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C4B65204DD2EC00684F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C4B6E204DD2EC00684F10 /* DungeonCrawlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1C4B70204DD2EC00684F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C4B79204DD2EC00684F10 /* DungeonCrawlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1C4B6B204DD2EC00684F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1C4B54204DD2EC00684F10 /* DungeonCrawler */;
+			targetProxy = 3F1C4B6A204DD2EC00684F10 /* PBXContainerItemProxy */;
+		};
+		3F1C4B76204DD2EC00684F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1C4B54204DD2EC00684F10 /* DungeonCrawler */;
+			targetProxy = 3F1C4B75204DD2EC00684F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F1C4B5C204DD2EC00684F10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1C4B5D204DD2EC00684F10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1C4B61204DD2EC00684F10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1C4B62204DD2EC00684F10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1C4B7B204DD2EC00684F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1C4B7C204DD2EC00684F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1C4B7E204DD2EC00684F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DungeonCrawler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomeEntertainment.DungeonCrawler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F1C4B7F204DD2EC00684F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DungeonCrawler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomeEntertainment.DungeonCrawler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F1C4B81204DD2EC00684F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DungeonCrawlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomeEntertainment.DungeonCrawlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DungeonCrawler.app/DungeonCrawler";
+			};
+			name = Debug;
+		};
+		3F1C4B82204DD2EC00684F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DungeonCrawlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomeEntertainment.DungeonCrawlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DungeonCrawler.app/DungeonCrawler";
+			};
+			name = Release;
+		};
+		3F1C4B84204DD2EC00684F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DungeonCrawlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomeEntertainment.DungeonCrawlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DungeonCrawler;
+			};
+			name = Debug;
+		};
+		3F1C4B85204DD2EC00684F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DungeonCrawlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HomeEntertainment.DungeonCrawlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DungeonCrawler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1C4B50204DD2EC00684F10 /* Build configuration list for PBXProject "DungeonCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C4B7B204DD2EC00684F10 /* Debug */,
+				3F1C4B7C204DD2EC00684F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1C4B7D204DD2EC00684F10 /* Build configuration list for PBXNativeTarget "DungeonCrawler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C4B7E204DD2EC00684F10 /* Debug */,
+				3F1C4B7F204DD2EC00684F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1C4B80204DD2EC00684F10 /* Build configuration list for PBXNativeTarget "DungeonCrawlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C4B81204DD2EC00684F10 /* Debug */,
+				3F1C4B82204DD2EC00684F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1C4B83204DD2EC00684F10 /* Build configuration list for PBXNativeTarget "DungeonCrawlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1C4B84204DD2EC00684F10 /* Debug */,
+				3F1C4B85204DD2EC00684F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1C4B4D204DD2EC00684F10 /* Project object */;
+}
