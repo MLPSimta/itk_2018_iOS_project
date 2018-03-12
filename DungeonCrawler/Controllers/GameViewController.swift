@@ -1,24 +1,15 @@
 //
-//  MainViewController.swift
+//  GameViewController.swift
 //  DungeonCrawler
 //
-//  Created by Student on 2018. 03. 05..
+//  Created by Student on 2018. 03. 12..
 //  Copyright © 2018. Student. All rights reserved.
 //
 
 import UIKit
 
-class MainViewController: UIViewController {
+class GameViewController: UIViewController {
 
-    
-    @IBAction func gameButton(_ sender: Any) {
-        performSegue(withIdentifier: "GameViewController", sender: self)
-    }
-    @IBAction func creditsButton(_ sender: Any) {
-        
-        performSegue(withIdentifier: "CreditViewController", sender: self)
-        
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
