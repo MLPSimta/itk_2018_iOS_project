@@ -21,6 +21,9 @@ class GameViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func exitGameButton(_ sender: Any) {
+        performSegue(withIdentifier: "MainViewController", sender: self)
+    }
 
     /*
     // MARK: - Navigation

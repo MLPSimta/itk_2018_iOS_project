@@ -25,14 +25,6 @@
                                 <rect key="frame" x="40" y="220" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zk-k0-tP8">
-                                <rect key="frame" x="254" y="518" width="50" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Credits"/>
-                                <connections>
-                                    <segue destination="Juw-9o-aIY" kind="presentation" id="TOd-C5-KJD"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Welcome to DungeonCrawler" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ejo-nj-mej">
                                 <rect key="frame" x="56" y="28" width="209" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -41,12 +33,20 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IK-Ei-UeL">
-                                <rect key="frame" x="40" y="518" width="46" height="30"/>
+                                <rect key="frame" x="16" y="518" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
-                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SlN-bF-BHn"/>
-                                    <segue destination="pIA-EK-1oS" kind="presentation" id="oWQ-oT-Hl9"/>
+                                    <action selector="gameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xIt-FX-evx"/>
+                                    <segue destination="IMa-tM-nEV" kind="presentation" id="cFh-Ql-az0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zk-k0-tP8">
+                                <rect key="frame" x="254" y="518" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Credits"/>
+                                <connections>
+                                    <segue destination="Juw-9o-aIY" kind="presentation" id="TOd-C5-KJD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -88,46 +88,33 @@
             </objects>
             <point key="canvasLocation" x="1099" y="-265"/>
         </scene>
-        <!--Game View Contreller-->
-        <scene sceneID="UX8-s3-eMe">
+        <!--Game View Controller-->
+        <scene sceneID="D58-SF-5jP">
             <objects>
-                <collectionViewController id="pIA-EK-1oS" customClass="GameViewContreller" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="Cri-ga-h6o">
+                <viewController id="IMa-tM-nEV" customClass="GameViewController" customModule="DungeonCrawler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DZ7-ep-sGT"/>
+                        <viewControllerLayoutGuide type="bottom" id="X5w-6I-sg4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="68p-Lr-ZTv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Wd9-sO-Tmp">
-                            <size key="itemSize" width="50" height="50"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ia0-DX-WOz">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qgf-Kb-1V1">
+                                <rect key="frame" x="145" y="530" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RD-J9-jhH">
-                                            <rect key="frame" x="4" y="8" width="46" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Exit"/>
-                                        </button>
-                                    </subviews>
-                                </view>
-                            </collectionViewCell>
-                        </cells>
-                        <connections>
-                            <outlet property="dataSource" destination="pIA-EK-1oS" id="lKd-4v-qDg"/>
-                            <outlet property="delegate" destination="pIA-EK-1oS" id="V36-mL-hXW"/>
-                        </connections>
-                    </collectionView>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8AT-qQ-6FO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                                <state key="normal" title="Exit"/>
+                                <connections>
+                                    <action selector="exitGameButton:" destination="IMa-tM-nEV" eventType="touchUpInside" id="Y0T-fE-Eg7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C49-rR-GQM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1099" y="450"/>
+            <point key="canvasLocation" x="1094" y="416"/>
         </scene>
     </scenes>
     <resources>

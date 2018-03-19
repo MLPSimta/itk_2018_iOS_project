@@ -11,9 +11,11 @@ import UIKit
 class MainViewController: UIViewController {
 
     
+   
     @IBAction func gameButton(_ sender: Any) {
         performSegue(withIdentifier: "GameViewController", sender: self)
     }
+    
     @IBAction func creditsButton(_ sender: Any) {
         
         performSegue(withIdentifier: "CreditViewController", sender: self)
